@@ -38,6 +38,29 @@
     font-size: large;
     line-height: 1.3em;
 	}
+
+	@media (min-width: 576px) and (max-width: 767px) {
+		.pd-container{
+	    grid-template-columns: repeat(2, 1fr);
+	    gap: 1vw;
+	    border-radius: 8px;
+	    padding: 16px 16px;
+	    display: inline-grid;
+	    align-items: self-start;
+		}
+}
+
+  @media screen and (max-width: 575px) {
+		.pd-container{
+	    grid-template-columns: repeat(1, 1fr);
+	    gap: 1vw;
+	    border-radius: 8px;
+	    padding: 16px 16px;
+	    display: inline-grid;
+	    align-items: self-start;
+		}
+
+  }
 		 
 	
   </style>
