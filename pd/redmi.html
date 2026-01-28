@@ -64,13 +64,21 @@
 
   @media screen and (max-width: 575px) {
 		.pd-container{
-	    grid-template-columns: repeat(1, 1fr);
-	    gap: 1vw;
-	    border-radius: 8px;
-	    padding: 16px 16px;
-	    display: inline-grid;
-	    align-items: self-start;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1vw;
+    border-radius: 8px;
+    display: inline-grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
 		}
+
+	  .pd-1 .pd-2 .pd-3{
+		      display: inline-grid;
+    justify-items: center;
+	  }
 
 	  	img {
 	    width: 300px;
@@ -83,7 +91,6 @@
     font-weight: 400;
     font-size: clamp(14px, 1.3vw, 18px) !important;
     line-height: 1.3em;
-			max-width: 80%;
 	}
 
   }
